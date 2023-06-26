@@ -50,7 +50,7 @@ fn main() -> Result<(), String> {
     let video_subsystem = sdl_context.video()?;
 
     let window = video_subsystem
-        .window("rust-sdl2 demo: Video", WIDTH, HEIGHT)
+        .window("CHIP-8", WIDTH, HEIGHT)
         .position_centered()
         .build()
         .map_err(|e| e.to_string())?;
